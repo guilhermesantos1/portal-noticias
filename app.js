@@ -1,5 +1,5 @@
 var app = require('./config/server.js');
 
 app.listen(3000, function(){
-	console.log("Server ON!!! Porta: 3000");
+	console.log("Server ON!!!");
 });

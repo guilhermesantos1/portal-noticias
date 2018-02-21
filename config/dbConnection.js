@@ -7,8 +7,8 @@
 */
 
 var mysql = require('mysql');
+
 var connMySQL = function() {
-    console.log("estabeleci uma conexao com o bd");
     return mysql.createConnection({
         host: 'localhost',
         user: 'root',
@@ -18,6 +18,5 @@ var connMySQL = function() {
 }
 
 module.exports = function() {
-    console.log("autoload carregou o modulo de conn com o bd");
     return connMySQL;
 };
