@@ -1,13 +1,36 @@
 # Portal de Notícias
-Portal de Noticias desenvolvido com NodeJS, Express, Express Validator, 
-Consign, EJS, MySQL, Body Parser e Nodemon.
+Portal de Noticias desenvolvido com NodeJS, Express, Express Validator, Consign, EJS, MySQL, Body Parser e Nodemon.
 
-## SQL para implementar o BD
+## Instalando as depêndencias do projeto
+```bash
+npm install
+```
+
+## Executando o projeto
+```bash
+npm run dev
+```
+
+## Acessando a URL da aplicação
+```
+http://localhost:3000
+```
+
+## Implementando o Banco de Dados
+Execute os comandos SQL a seguir, para poder cadastrar novas notícias utilizando a interface da aplicação.
+
+Criando o BD:
 ```sql
 CREATE DATABASE portal_noticias;
+```
 
+Selecionando o BD:
+```sql
 USE portal_noticias;
+```
 
+Criando a tabela que armazena todas as notícias:
+```sql
 CREATE TABLE `noticias` (
   `id_noticia` int(11) NOT NULL AUTO_INCREMENT,
   `titulo` varchar(100) DEFAULT NULL,
