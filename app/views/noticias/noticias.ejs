@@ -35,8 +35,8 @@
 
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="noticias">NOTICÍAS</a></li>
-						<li><a href="formulario_inclusao_noticia">CADASTRAR NOTICÍA</a></li>
+						<li><a href="/noticias">NOTICÍAS</a></li>
+						<li><a href="/formulario_inclusao_noticia">CADASTRAR NOTICÍA</a></li>
 					</ul>
 				</div>
 			</div>
@@ -52,11 +52,11 @@
 			    		<div class="col-md-12">
 			    			<div class="noticia_wrapper">
 				    			<span class="noticia_autor"><%= noticias[i].autor %></span>
-				    			<a href="noticia?id_noticia=<%= noticias[i].id_noticia %>" class="noticia_titulo"><%= noticias[i].titulo %></a>
+				    			<a href="/noticia?id_noticia=<%= noticias[i].id_noticia %>" class="noticia_titulo"><%= noticias[i].titulo %></a>
 				    			<span class="noticia_data"><%= noticias[i].data_noticia %></span>
 				    			<br />
 				    			<p class="noticia_resumo">
-				    				<%= noticias[i].noticia %>
+				    				<%= noticias[i].resumo %>
 				    			</p>
 				    		</div>
 				    	</div>
