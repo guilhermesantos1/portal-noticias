@@ -5,6 +5,7 @@ Consign, EJS, MySQL, Body Parser e Nodemon.
 
 #Criando o banco de Dados para fazer a aplicação funcionar
 
+```
 CREATE DATABASE portal_noticias;
 
 USE portal_noticias;
@@ -19,4 +20,4 @@ CREATE TABLE `noticias` (
   `data_noticia` date DEFAULT NULL,
   PRIMARY KEY (`id_noticia`)
 );
-
+```
