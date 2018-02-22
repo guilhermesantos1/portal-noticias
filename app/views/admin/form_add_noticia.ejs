@@ -30,12 +30,13 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<img src="images/logo.png" />
+					<a href="/"><img src="images/logo.png" /></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="/">HOME</a></li>
+						<li><a href="noticias">NOTICÍAS</a></li>
+						<li><a href="formulario_inclusao_noticia">CADASTRAR NOTICÍA</a></li>
 					</ul>
 				</div>
 			</div>
@@ -43,7 +44,8 @@
 
 
 	    <div class="container">
-
+			<h3>Cadastrar uma nova notícia</h3>
+			<br />
 			<% if (validacao.length > 0) { %>
 				<div class="row">
 					<div class="col-md-12">
@@ -61,7 +63,7 @@
 
 	    	<div class="row">
 	    		<div class="col-md-12">
-	    			<form action="/noticias/salvar" method="post">
+	    			<form action="noticias/salvar" method="post">
 						<div class="form-group">
 							<label for="titulo">Título:</label>
 							<input type="text" class="form-control" id="titulo" name="titulo" value="<%= noticia.titulo %>">

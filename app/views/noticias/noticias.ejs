@@ -30,12 +30,13 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<img src="images/logo.png" />
+					<a href="/"><img src="images/logo.png" /></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="/">HOME</a></li>
+						<li><a href="noticias">NOTICÍAS</a></li>
+						<li><a href="formulario_inclusao_noticia">CADASTRAR NOTICÍA</a></li>
 					</ul>
 				</div>
 			</div>
@@ -43,6 +44,8 @@
 
 
 	    <div class="container">
+			<h3>Todas as notícias</h3>
+			<br />
 			<% if (noticias.length > 0) { %>
 				<% for (var i = 0; i < noticias.length; i++) { %>
 			    	<div class="row">
