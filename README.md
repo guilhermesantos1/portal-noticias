@@ -2,12 +2,12 @@
 Portal de Noticias desenvolvido com NodeJS, Express, Express Validator, Consign, EJS, MySQL, Body Parser e Nodemon.
 
 ## Instalando as depêndencias do projeto
-```bash
+```
 npm install
 ```
 
 ## Executando o projeto
-```bash
+```
 npm run dev
 ```
 
