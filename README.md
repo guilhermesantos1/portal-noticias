@@ -1,11 +1,9 @@
-# portal-noticias
-
+# Portal de Notícias
 Portal de Noticias desenvolvido com NodeJS, Express, Express Validator, 
 Consign, EJS, MySQL, Body Parser e Nodemon.
 
-# Criando o banco de Dados para fazer a aplicação funcionar
-
-```
+## SQL para implementar o BD
+```sql
 CREATE DATABASE portal_noticias;
 
 USE portal_noticias;
