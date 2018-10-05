@@ -11,6 +11,7 @@ app.use(express.static('./app/public/'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(expressValidator());
 
+//faz o autoload desses modulos para dentro do app.js
 consign()
     .include('./app/routes')
     .then('./config/dbConnection.js')

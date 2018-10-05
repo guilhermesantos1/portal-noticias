@@ -4,7 +4,6 @@ module.exports.formulario_inclusao_noticia = function(application, req, res) {
 
 module.exports.noticias_salvar = function(application, req, res) {
     var noticia = req.body;
-    console.log(noticia);
 
     req.check('titulo','Título é obrigatório').isLength({ min: 1 });
     req.check('resumo','Resumo é obrigatório').isLength({ min: 1 });
