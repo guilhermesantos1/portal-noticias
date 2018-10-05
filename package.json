@@ -2,7 +2,7 @@
   "name": "curso-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "noticias.js",
+  "main": "app.js",
   "author": "Guilherme Santos",
   "license": "ISC",
   "scripts": {
