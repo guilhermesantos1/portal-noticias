@@ -1,6 +1,6 @@
 Utilizando o MySQL linha de comando
 
 - Windows + R ->  abrir o cmd
-- Navegar até o diretório do mysql -> c:\Program Files\MySQL\MySQL Server 5.6\bin
+- Navegar ate o diretorio do mysql -> c:\Program Files\MySQL\MySQL Server 5.6\bin
 - executar o comando -> mysql -u root -p
-- Logo após colocar a senha do banco de dados que no meu caso é "1234"
+- Logo apos colocar a senha do banco de dados que no meu caso "1234"
